@@ -1,4 +1,5 @@
 const http=require('http');
+//to create server
 http.createServer(function(req, res){
     res.writeHead(200,
         {

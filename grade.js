@@ -1,0 +1,1 @@
+const mark=prompt('Enter your Mark');

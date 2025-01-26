@@ -5,7 +5,7 @@ http.createServer(function(req, res){
         {
         'content_Type':'text/html'
     });
-    res.write('hello this kevin im eb developer');
+    res.write('hello this kevin im web developer');
     res.end();
 }).listen(8080,()=>{
     // our app is listen on 

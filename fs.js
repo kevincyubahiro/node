@@ -1,12 +1,12 @@
 const fs = require('fs');
-fs.readFile('kevin.txt',result=>{
-    if(result){
-        console.log('This is gikonko technical secondary school ')
-    }
-else{
-    console.log('no')
-}
+
+// Data to be written to the file
+const data = 'This is a new file created using Node.js!';
+
+fs.writeFile('example.txt', data, (err) => {
+  if (err) {
+    console.log('Error creating the file:', err);
+  } else {
+    console.log('File created and data written successfully!');
+  }
 });
-
-
-

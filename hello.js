@@ -8,5 +8,6 @@ http.createServer(function(req, res){
     res.write('hello this kevin im eb developer');
     res.end();
 }).listen(8080,()=>{
+    // our app is listen on 
 console.log('server is running on http://localhost:8080')
 });
